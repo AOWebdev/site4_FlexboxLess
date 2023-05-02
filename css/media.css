@@ -3,6 +3,18 @@
     flex-direction: column;
     justify-content: center;
   }
+
+  body .expand {
+    padding: 30px 30px 10px 30px;
+  }
+  body .expand .mainText {
+    padding: 50px 0;
+    margin-bottom: 20px;
+  }
+  body .expand .mainText h1 {
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 549px) {
@@ -27,6 +39,36 @@
   body header .mainText p {
     font-size: 18px;
     padding-bottom: 20px;
+  }
+
+  body .expand {
+    padding: 10px;
+  }
+  body .expand .mainText {
+    border: none;
+    padding: 30px 0;
+    margin-bottom: 20px;
+  }
+  body .expand .mainText h1 {
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+
+  body .our_process .steps {
+    display: block;
+    text-transform: uppercase;
+  }
+
+  body .our_process .steps span {
+    color: #fc635e;
+  }
+
+  body .our_process .steps p {
+    text-transform: none;
+  }
+
+  body .our_process .back_process {
+    display: none;
   }
 }
 
